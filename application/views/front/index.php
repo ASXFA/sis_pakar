@@ -244,7 +244,7 @@
                                             Pilih gejala-gejala yang anda alami dibawah ini. Bisa lebih dari 1
                                         </h5>
                                         <?php foreach ($gejala as $g) : ?>
-                                            <div class="col-md-3">
+                                            <div class="col-md-12">
                                                 <div class="form-check" style="font-size:18px !important;">
                                                     <input class="form-check-input" type="checkbox" name="form_gejala[]" value="<?= $g->id_gejala ?>">
                                                     <label class="form-check-label font-weight-bold">

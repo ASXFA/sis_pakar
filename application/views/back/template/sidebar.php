@@ -15,14 +15,14 @@
     <section class="sidebar">
         <!-- Sidebar Menu -->
         <ul class="sidebar-menu">
-            <li class="header">Menu</li>
-            <li id="page-dashboard"><a href="./"><i class="fa fa-circle"></i> <span>Beranda</span></a></li>
-            <li id="page-gejala"><a href="<?= base_url('gejala/listGejala') ?>"><i class="fa fa-circle"></i> <span>Gejala</span></a></li>
-            <li id="page-diagnosa"><a href="<?= base_url('diagnosa/listDiagnosa') ?>"><i class="fa fa-circle"></i> <span>Diagnosa</span></a></li>
-            <li id="page-pengetahuan"><a href="<?= base_url('b_pengetahuan/listPengetahuan') ?>"><i class="fa fa-circle"></i> <span>Basis Pengetahuan</span></a></li>
-            <li id="page-konsultasi"><a href="<?= base_url('konsultasi/listKonsultasi') ?>"><i class="fa fa-circle"></i> <span>Record Konsultasi</span></a></li>
-            <li id="page-admin"><a href="<?= base_url('admin/listAdmin') ?>"><i class="fa fa-circle"></i> <span>Admin</span></a></li>
-            <li id="page-pengaturan"><a href="<?= base_url('admin/pengaturan') ?>"><i class="fa fa-circle"></i> <span>Pengaturan Akun</span></a></li>
+            <!-- <li class="header">Menu</li> -->
+            <li id="page-beranda"><a href="<?= base_url('dashboard') ?>"><i class="fa fa-home"></i> <span>Beranda</span></a></li>
+            <li id="page-gejala"><a href="<?= base_url('gejala/listGejala') ?>"><i class="fa fa-plus-square"></i> <span>Gejala</span></a></li>
+            <li id="page-diagnosa"><a href="<?= base_url('diagnosa/listDiagnosa') ?>"><i class="fa fa-heartbeat"></i> <span>Diagnosa</span></a></li>
+            <li id="page-pengetahuan"><a href="<?= base_url('b_pengetahuan/listPengetahuan') ?>"><i class="fa fa-lightbulb-o"></i> <span>Basis Pengetahuan</span></a></li>
+            <li id="page-konsultasi"><a href="<?= base_url('konsultasi/listKonsultasi') ?>"><i class="fa fa-stethoscope"></i> <span>Record Konsultasi</span></a></li>
+            <li id="page-admin"><a href="<?= base_url('admin/listAdmin') ?>"><i class="fa fa-users"></i> <span>Admin</span></a></li>
+            <li id="page-pengaturan"><a href="<?= base_url('admin/pengaturan') ?>"><i class="fa fa-cogs"></i> <span>Pengaturan Akun</span></a></li>
             <li><a href="<?= base_url('auth/logout') ?>"><i class="fa fa-sign-out"></i> <span>Logout</span></a></li>
         </ul><!-- /.sidebar-menu -->
     </section>

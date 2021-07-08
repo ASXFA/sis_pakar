@@ -3,7 +3,7 @@
 
         <div class="row">
             <div class="col-md-6">
-                <div class="box box-success">
+                <div class="box box-primary">
                     <div class="box-header with-border">
                         <h4 class="box-title">Ganti Username</h4>
                     </div>
@@ -21,7 +21,7 @@
                 </div>
             </div>
             <div class="col-md-6">
-                <div class="box box-success">
+                <div class="box box-primary">
                     <div class="box-header with-border">
                         <h4 class="box-title">Ganti Username</h4>
                     </div>

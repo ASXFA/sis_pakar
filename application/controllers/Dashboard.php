@@ -16,9 +16,16 @@ class Dashboard extends CI_Controller
 
     public function index()
     {
+        $this->load->model('model_konsul');
+        $this->load->model('model_detail_konsul');
+        $this->load->model('model_diagnosa');
+        $data['page'] = 'Dashboard';
+        $data['listKonsultasi'] = $this->model_konsul->getAll();
+        $data['listDiagnosa'] = $this->model_diagnosa->getAll();
+        $data['listDetail'] = $this->model_detail_konsul->getAll();
         $this->load->view('back/template/header');
         $this->load->view('back/template/sidebar');
-        $this->load->view('back/dashboard');
+        $this->load->view('back/dashboard', $data);
         $this->load->view('back/template/footer');
     }
 }
