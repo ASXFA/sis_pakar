@@ -33,8 +33,6 @@
                                     </tr>
                             <?php $no++;
                                 endforeach;
-                            } else {
-                                echo "<tr><td colspan='4' class='text-center'>Data Tidak Ada </td></tr>";
                             }
                             ?>
                         </tbody>
@@ -183,9 +181,9 @@
                             }).then((results) => {
                                 /* Read more about handling dismissals below */
                                 if (results.dismiss === Swal.DismissReason.timer) {
-                                    $('#table-gejala').DataTable().ajax.reload();
+                                    location.reload();
                                 } else if (results.isConfirmed) {
-                                    $('#table-gejala').DataTable().ajax.reload();
+                                    location.reload();
                                 }
                             })
                         }

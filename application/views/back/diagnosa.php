@@ -35,8 +35,6 @@
                                     </tr>
                             <?php $no++;
                                 endforeach;
-                            } else {
-                                echo "<tr><td colspan='4' class='text-center'>Data Tidak Ada </td></tr>";
                             }
                             ?>
                         </tbody>

@@ -30,8 +30,6 @@
                                     </tr>
                             <?php $no++;
                                 endforeach;
-                            } else {
-                                echo "<tr><td colspan='4' class='text-center'>Data Tidak Ada </td></tr>";
                             }
                             ?>
                         </tbody>
@@ -57,8 +55,11 @@
                             <input type="text" class="form-control" id="username">
                         </div>
                     </div>
-                    <div class="form-group">
-                        <small>*password sama dengan username</small>
+                    <div class="form-group row">
+                        <label for="fpass" class="col-sm-3 control-label col-form-label">Password</label>
+                        <div class="col-lg-12">
+                            <input type="password" class="form-control" id="password">
+                        </div>
                     </div>
                 </div>
                 <div class="modal-footer">

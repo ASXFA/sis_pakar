@@ -41,7 +41,7 @@ class Admin extends CI_Controller
     {
         $data = array(
             'username' => $this->input->post('username'),
-            'password' => password_hash($this->input->post('username'), PASSWORD_DEFAULT)
+            'password' => password_hash($this->input->post('password'), PASSWORD_DEFAULT)
         );
         $process = $this->model_admin->tambah($data);
         echo json_encode($process);
